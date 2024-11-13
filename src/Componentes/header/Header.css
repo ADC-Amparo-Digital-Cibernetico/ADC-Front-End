@@ -1,0 +1,22 @@
+header{
+    background-color: #4682B4;
+    width: 100%;
+    color: aliceblue;
+
+}
+
+.botao-entrar {
+    background-color: #0000CD;
+}
+
+.botao-cadastro {
+    background-color: #007bff; 
+    color: white;
+    border: none; 
+}
+
+.btn{
+    width: 150px;
+    border-radius: 200px;
+
+}
