@@ -1,0 +1,49 @@
+.service-section {
+  background-color: #4682B4;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.service-section h2 {
+  font-size: 3em;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.service-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-images,
+.service-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-images {
+  gap: 10px; /* Reduz o espaço entre as imagens */
+  align-items: center;
+}
+
+.service-texts {
+  justify-content: center;
+  gap: 40px; /* Espaço entre os textos para corresponder à altura das imagens */
+}
+
+.service-item img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+}
+
+.service-texts h3 {
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+}
